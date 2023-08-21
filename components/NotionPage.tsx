@@ -242,7 +242,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const name = getBlockTitle(block, recordMap) || site.name
   const title =
-    tagsPage && propertyToFilterName ? `${propertyToFilterName} ${name}` : name
+    tagsPage && propertyToFilterName ? `Tag - ${propertyToFilterName}` : name
 
   console.log('notion page', {
     isDev: config.isDev,
@@ -313,7 +313,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         searchNotion={config.isSearchEnabled ? searchNotion : null}
         pageAside={pageAside}
         footer={footer}
-        pageTitle={tagsPage && propertyToFilterName ? title : undefined}
+        pageTitle={title}
         pageCover={pageCover}
       />
     </>
