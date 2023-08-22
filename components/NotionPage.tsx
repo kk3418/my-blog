@@ -189,7 +189,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     []
   )
 
-  // lite mode is for oembed
+  // lite mode is for embed
   const isLiteMode = lite === 'true'
 
   const { isDarkMode } = useDarkMode()
