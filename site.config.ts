@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'my blog',
-  domain: 'notion-blog',
+  domain: 'my-blog-lemon-psi.vercel.app',
   author: 'Kevin Chao',
 
   // open graph metadata (optional)
