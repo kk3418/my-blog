@@ -45,6 +45,7 @@ export default siteConfig({
   pageUrlOverrides: {
     '/': 'e0294d8963174fbfa3f1e6acaf2e2ebf',
     '/about': '8e8937079dc248b0bf55910f64b78fa0',
+    '/project': 'ac84f614974e4056aa37df302907d44b',
     '/contact': 'bb2ea3f3679749c8a5e59b336f3108f0'
   },
 
@@ -57,6 +58,10 @@ export default siteConfig({
     {
       title: 'About',
       pageId: '8e8937079dc248b0bf55910f64b78fa0'
+    },
+    {
+      title: 'Project',
+      pageId: 'ac84f614974e4056aa37df302907d44b'
     },
     {
       title: 'Contact',

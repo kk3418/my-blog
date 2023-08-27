@@ -17,7 +17,7 @@ export interface PageProps {
   error?: PageError
   tagsPage?: boolean
   propertyToFilterName?: string | string
-  isDisplayPageIcon?: boolean
+  isDisplayDefault?: boolean
 }
 
 export interface Params extends ParsedUrlQuery {

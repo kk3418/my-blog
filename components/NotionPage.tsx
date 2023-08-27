@@ -167,7 +167,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   pageId,
   tagsPage,
   propertyToFilterName,
-  isDisplayPageIcon
+  isDisplayDefault
 }) => {
   const router = useRouter()
   const lite = useSearchParam('lite')
@@ -304,8 +304,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
         showCollectionViewDropdown={false}
         showTableOfContents={showTableOfContents}
         minTableOfContentsItems={minTableOfContentsItems}
-        defaultPageIcon={isDisplayPageIcon && config.defaultPageIcon}
-        defaultPageCover={config.defaultPageCover}
+        defaultPageIcon={isDisplayDefault && config.defaultPageIcon}
+        defaultPageCover={isDisplayDefault && config.defaultPageCover}
         defaultPageCoverPosition={config.defaultPageCoverPosition}
         linkTableTitleProperties={false}
         mapPageUrl={siteMapPageUrl}
